@@ -1,0 +1,116 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400; /* for PT Sans Regular */
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700; /* for PT Sans Bold */
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  min-width: 420px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: burlywood;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: coral;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: brown;
+}
+
+.pagination button:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}
+
+
+.logo {
+  width: 100px;
+}
+
+
+
+
+@media (max-width: 1024px) {
+
+  .container {
+    max-width: 900px;
+    padding: 0 70px;
+  }
+  
+}
+
+@media (max-width: 600px) {
+
+  .container {
+    max-width: 500px;
+    padding: 0 20px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
